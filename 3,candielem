@@ -21,7 +21,6 @@ with open("trainingexamples.csv") as f:
                 else:
                     general[j][j] = "?"
 
-        print("\nStep " + str(data.index(i)+1) + " of Candidate Elimination Algorithm")
         print(specific)
         print(general)
 
